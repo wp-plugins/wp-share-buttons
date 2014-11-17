@@ -54,4 +54,50 @@ The installation of our plugin is easy and even a beginner can deal with it, Jus
 = 1.0.0 =
 *  Add WordPress Share Buttons plugin.
 
-==Step 1. Adding a Share Buttons==
+==Share buttons user manual==
+
+### Step 1 Adding Share Buttons
+
+To Add Share Buttons Plugin go in Share buttons and start customize them
+
+Step 2 Free Customizations
+
+Share Buttons Social Medias. Choose the social websites, from this list, that you want to display in your post
+Share Buttons size. Set the size for the Share icons
+Button Position. choose the position of the buttons on your page
+
+### 2.1 Pro Customizations
+
+Buttons style. Choose the Share Button style from the list
+Share Buttons Block.
+Block Has Background. Choose to have background for the Share Buttons
+Block Background Color. Select the color for background
+Block Border Size. Set the size of the border
+Block Border Color. Choose the color of your border
+Block Border Radius. Choose the radius for border corners
+Margin From Content. Set the margin of buttons from your content
+
+Share Buttons Title
+
+Title Text. Write a text for your share buttons
+Title Position. Choose the position of the text						
+Title Font Size. Set the font size for the title
+Title Color. Choose a color for the title
+Title Font Style(Family). Set Font style for title text	
+
+Buttons Custom Styles
+
+Margin Between Buttons. Set the distance between buttons
+Buttons Has Background. Choose whether to have background for the buttons
+Buttons Background Padding. Choose the padding size for buttons’ background
+Buttons Background Color. Select background color
+Buttons Border Size. Select >0 to have and adjust border for buttons
+Buttons Border Style. Choose a style for buttons’ border			
+Buttons Border Color. select a color for buttons’ border
+Buttons Border Radius. Set radius for buttons’ border corners
+*all changes will be displayed next to the options in demo content
+
+### Step 3 Inserting Share buttons
+
+In order to insert Share buttons into your post go >Edit Post >Tick on Share buttons. And you will see your buttons on every post, where it has selected
+Copy/Past the shortcode and insert into post
