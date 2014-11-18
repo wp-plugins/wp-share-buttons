@@ -4,7 +4,7 @@ Donate link: http://huge-it.com/share-buttons/
 Tags: share buttons, Share, social icons, share facebook, facebook, network, social, social buttons, twitter, Digg, Google Plus, Linkedin, MySpace, StumbleUpon, Tumblr, Pinterest, google +1, facebook like, facebook share, tweet, links, Like, twitter share, share this, icon, icons, tweet button, twitter button, share links, share button, sharing, google, google plus one, social bookmarking, social bookmarks, social share, social sharing, socialize, sharethis, social media, Social Share Buttons, evernote, button, bookmark button, instapaper, plus one, pin, pin it, sharing is caring, Shareaholic, wpmu, like button, publish Facebook, Social Plugins, Google+1, goo.gl, bookmarks, bookmarking, add this, addtoany, aim, bookmarks menu, google bookmarks, google plus, share and enjoy, share and follow, facebook share button, google widget, sharebar, social media share, add to any, AddThis, bookmark, sociable, page, pages, Reddit, del.icio.us,
 Requires at least: 3.0.1
 Tested up to: 4.0.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,7 @@ Share Buttons - Social network is one of the popular places where people get inf
 
 ### Wordpress Share Buttons
 
+* [Buy Share Buttons](http://huge-it.com/share-buttons/)
 * [Demo Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo/)
 
 Social network is one of the popular places where people get information about everything in the world. Adding social share buttons into your blog or website page is very necessary and useful element for "socialization" of the project. 
@@ -52,6 +53,9 @@ The installation of Share Buttons plugin is easy and even a beginner can deal wi
 4.  WordPress Share Buttons - Demo Post Page
     
 == Changelog ==
+
+= 1.0.1 =
+*  Bug has been fixed in WordPress Share Buttons plugin.
 
 = 1.0.0 =
 *  Add WordPress Share Buttons plugin.

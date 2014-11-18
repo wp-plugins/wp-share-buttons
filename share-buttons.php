@@ -3,8 +3,8 @@
 /*
 Plugin Name: Share Buttons
 Plugin URI: http://huge-it.com/share_buttons/
-Description: Share Buttons - Social network is one of the popular places where people get information about everything in the world.
-Version: 1.0.0
+Description:Huge-IT Share Buttons Plugin gives you ability to easily add Facebook, Twitter, G+ and many other social sharing buttons to your website.
+Version: 1.0.1
 Author: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -74,12 +74,12 @@ function add_share_buttons_my_custom_button($context) {
 
   $title = 'Select Huge IT Share Buttons to insert into post';
 
-  $context .= '<a class="button thickbox" title="Select share_buttons to insert into post"    href="#TB_inline?width=400&inlineId='.$container_id.'">
+  $context .= '<a class="button thickbox" title="Select Share Buttons to insert into post"    href="#TB_inline?width=400&inlineId='.$container_id.'">
 		<span class="wp-media-buttons-icon" style="background: url('.$img.'); background-repeat: no-repeat; background-position: left bottom;"></span>
 	Add Share Buttons
 	</a>';
   
-  //return $context;
+  return $context;
 }
 
 function add_share_buttons_inline_popup_content() {
@@ -97,22 +97,11 @@ function add_share_buttons_inline_popup_content() {
 
 <div id="huge_it_share" style="display:none;">
   <h3>Select Huge IT Share Buttons to insert into post</h3>
-  <?php 
-  	  global $wpdb;
-	  $query="SELECT * FROM ".$wpdb->prefix."huge_itshare_buttons_share_buttonss order by id ASC";
-			   $shortcodeshare_buttonss=$wpdb->get_results($query);
-			   ?>
-
- <?php 	if (count($shortcodeshare_buttonss)) {
+ <?php 
 							echo "<select id='huge_it_share-select'>";
-							foreach ($shortcodeshare_buttonss as $shortcodeshare_buttons) {
-								echo "<option value='".$shortcodeshare_buttons->id."'>".$shortcodeshare_buttons->name."</option>";
-							}
+								echo "<option value='1'>Share Buttons</option>";
 							echo "</select>";
 							echo "<button class='button primary' id='hugeitshare_buttonsinsert'>Insert Share Buttons</button>";
-						} else {
-							echo "No slideshows found", "huge_it_share";
-						}
 						?>
 	
 </div>
@@ -139,7 +128,7 @@ function huge_it_share_images_list_shotrcode($atts)
     
     ), $atts));
 
-    return huge_it_share_images_list($atts['id']);
+    return huge_it_share_images_list();
 
 }
 
@@ -193,7 +182,7 @@ function gen_string_share_buttons_search($serch_word, $wordpress_query_post)
 
 add_shortcode('huge_it_share', 'huge_it_share_images_list_shotrcode');
 
-function   huge_it_share_images_list($id)
+function   huge_it_share_images_list()
 {
 
     require_once("Front_end/share_front_end_view.php");
@@ -494,11 +483,14 @@ function huge_it_share_buttons_post( $post )
 			</label>
 			</div>-->
 			<div id="post_active">
-				<?php if(!(count($rowsparpost) > 0)){ ?>
-				<input type="checkbox" value="on" name="huge_it_share_button_active" checked="checked">
-				<?php } else { ?>
-				<input type="checkbox" value="on" name="huge_it_share_button_active" <?php if($share_active == 'on'){echo 'checked="checked"';} ?>>
-				<?php } ?>
+				<label>
+					<span>Show buttons on this post</span>
+					<?php if(!(count($rowsparpost) > 0)){ ?>
+					<input type="checkbox" value="on" name="huge_it_share_button_active" checked="checked">
+					<?php } else { ?>
+					<input type="checkbox" value="on" name="huge_it_share_button_active" <?php if($share_active == 'on'){echo 'checked="checked"';} ?>>
+					<?php } ?>
+				</label>
 			</div>
 			<div id="post_position_list_block">
 				<h3>Button Position</h3>
