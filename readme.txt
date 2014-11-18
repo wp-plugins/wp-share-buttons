@@ -14,7 +14,7 @@ Share Buttons - Social network is one of the popular places where people get inf
 
 ### Wordpress Share Buttons
 
-* [Buy Share Buttons](http://huge-it.com/share-buttons/)
+* [Wordpress Share Buttons](http://huge-it.com/share-buttons/)
 * [Demo Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo/)
 
 Social network is one of the popular places where people get information about everything in the world. Adding social share buttons into your blog or website page is very necessary and useful element for "socialization" of the project. 
