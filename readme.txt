@@ -48,11 +48,11 @@ The installation of Share Buttons plugin is easy and even a beginner can deal wi
 == Screenshots ==
     
 1.  WordPress Share Buttons - Demo Front end
-11.  WordPress Share Buttons - Demo Front end
-12.  WordPress Share Buttons - Demo Front end
 2.  WordPress Share Buttons - Demo Front end
-3.  WordPress Share Buttons - Demo Admin page
-4.  WordPress Share Buttons - Demo Post Page
+3.  WordPress Share Buttons - Demo Front end
+4.  WordPress Share Buttons - Demo Front end
+5.  WordPress Share Buttons - Demo Admin page
+6.  WordPress Share Buttons - Demo Post Page
     
 == Changelog ==
 
