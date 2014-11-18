@@ -14,9 +14,11 @@ Share Buttons - Social network is one of the popular places where people get inf
 
 ### Wordpress Share Buttons
 
+* [Demo Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo/)
+
 Social network is one of the popular places where people get information about everything in the world. Adding social share buttons into your blog or website page is very necessary and useful element for "socialization" of the project. 
 We present Huge-It Share Buttons plugin. Our amazing plugin is created and designed for your WordPress websites, to give you an ability quickly share your pages on social networks. How our plugin differs from other plugins? Firstly incredibly beautiful design for icons, that you can select from the list, secondly the options to set the size and position for your icons, place them where it will be mostly convenient to your visitors.
-We offer wide selection of most well known social network buttons, which you can manually choose : Here is the list of social network buttons,  that you can find in Huge-IT Share Buttons:
+We offer wide selection of most well known social network Share buttons, which you can manually choose : Here is the list of social network Share buttons,  that you can find in Huge-IT Share Buttons:
 
 * Facebook
 * Google Plus
@@ -28,13 +30,13 @@ We offer wide selection of most well known social network buttons, which you can
 * Tumblr
 * Pinterest
 
-The installation of our plugin is easy and even a beginner can deal with it, Just load, activate, insert in post and start to use. Make your website worldwide in best way!
+The installation of Share Buttons plugin is easy and even a beginner can deal with it, Just load, activate, insert in post and start to use. Make your website worldwide in best way!
 
 ### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
 
 == Installation ==
 
-### First download the ZIP file ,
+### First download the ZIP file Share Buttons ,
 
 1. Log in to your website administrator panel.   
 2. Go to Plugins page, and add new plugin.    
@@ -64,7 +66,7 @@ Step 1 Free Customizations - Share buttons
 
 Share Buttons Social Medias. Choose the social websites, from this list, that you want to display in your post
 Share Buttons size. Set the size for the Share icons
-Button Position. Select the position of the buttons on your webpage
+Button Position. Select the position of the Share buttons on your webpage
 
 ### Share buttons
 
@@ -77,7 +79,7 @@ Share Buttons style. Choose the Share Button style from the list - Share buttons
 *  Block Border Size. Set the size of the border - Share buttons
 *  Block Border Color. Choose the color of your border - Share buttons
 *  Block Border Radius. Choose the radius for border corners - Share buttons
-*  Margin From Content. Set the margin of buttons from your content - Share buttons
+*  Margin From Content. Set the margin of Share buttons from your content - Share buttons
 
 
 Share Buttons Title - Share buttons
@@ -89,16 +91,16 @@ Share Buttons Title - Share buttons
 *  Title Font Style(Family). Set Font style for title text - Share buttons
 
 
-Buttons Custom Styles - Share buttons
+Share Buttons Custom Styles - Share buttons
 
 *  Margin Between Buttons. Set the distance between buttons - Share buttons
-*  Buttons Has Background. Choose whether to have background for the buttons - Share buttons
-*  Buttons Background Padding. Choose the padding size for buttons’ background - Share buttons
-*  Buttons Background Color. Select background color - Share buttons
-*  Buttons Border Size. Set >0 to have the border and adjust it for buttons - Share buttons
-*  Buttons Border Style. Choose a style for border of the share button - Share buttons
-*  Buttons Border Color. select a color for buttons’ border - Share buttons
-*  Buttons Border Radius. Set radius for buttons’ border corners - Share buttons
+*  Share Buttons Has Background. Choose whether to have background for the buttons - Share buttons
+*  Share Buttons Background Padding. Choose the padding size for buttons’ background - Share buttons
+*  Share Buttons Background Color. Select background color - Share buttons
+*  Share Buttons Border Size. Set >0 to have the border and adjust it for buttons - Share buttons
+*  Share Buttons Border Style. Choose a style for border of the share button - Share buttons
+*  Share Buttons Border Color. select a color for buttons’ border - Share buttons
+*  Share Buttons Border Radius. Set radius for buttons’ border corners - Share buttons
 *all changes will be displayed next to the options in demo content - Share buttons
 
 ### Step 2 Inserting Share buttons - Share buttons
