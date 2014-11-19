@@ -4,7 +4,7 @@ Donate link: http://huge-it.com/share-buttons/
 Tags: share buttons, Share, social icons, share facebook, facebook, network, social, social buttons, twitter, Digg, Google Plus, Linkedin, MySpace, StumbleUpon, Tumblr, Pinterest, google +1, facebook like, facebook share, tweet, links, Like, twitter share, share this, icon, icons, tweet button, twitter button, share links, share button, sharing, google, google plus one, social bookmarking, social bookmarks, social share, social sharing, socialize, sharethis, social media, Social Share Buttons, evernote, button, bookmark button, instapaper, plus one, pin, pin it, sharing is caring, Shareaholic, wpmu, like button, publish Facebook, Social Plugins, Google+1, goo.gl, bookmarks, bookmarking, add this, addtoany, aim, bookmarks menu, google bookmarks, google plus, share and enjoy, share and follow, facebook share button, google widget, sharebar, social media share, add to any, AddThis, bookmark, sociable, page, pages, Reddit, del.icio.us,
 Requires at least: 3.0.1
 Tested up to: 4.0.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,10 +51,22 @@ The installation of Share Buttons plugin is easy and even a beginner can deal wi
 2.  WordPress Share Buttons - Demo Front end
 3.  WordPress Share Buttons - Demo Front end
 4.  WordPress Share Buttons - Demo Front end
-5.  WordPress Share Buttons - Demo Admin page
-6.  WordPress Share Buttons - Demo Post Page
+5.  WordPress Share Buttons - Demo Front end
+6.  WordPress Share Buttons - Demo Front end
+7.  WordPress Share Buttons - Demo Front end
+8.  WordPress Share Buttons - Demo Front end
+9.  WordPress Share Buttons - Demo Front end
+10.  WordPress Share Buttons - Demo Front end
+11.  WordPress Share Buttons - Demo Front end
+12.  WordPress Share Buttons - Demo Front end
+13.  WordPress Share Buttons - Demo Front end
+14.  WordPress Share Buttons - Demo Admin page
+15.  WordPress Share Buttons - Demo Post Page
     
 == Changelog ==
+
+= 1.0.2 =
+*  Bug has been fixed in WordPress Share Buttons plugin.
 
 = 1.0.1 =
 *  Bug has been fixed in WordPress Share Buttons plugin.

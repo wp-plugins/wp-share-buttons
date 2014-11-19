@@ -4,7 +4,7 @@
 Plugin Name: Share Buttons
 Plugin URI: http://huge-it.com/share_buttons/
 Description:Huge-IT Share Buttons Plugin gives you ability to easily add Facebook, Twitter, G+ and many other social sharing buttons to your website.
-Version: 1.0.1
+Version: 1.0.2
 Author: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -107,7 +107,6 @@ function add_share_buttons_inline_popup_content() {
 </div>
 <?php
 }
-
 
 add_action('init', 'hugesl_share_buttons_do_output_buffer');
 function hugesl_share_buttons_do_output_buffer() {
@@ -269,9 +268,6 @@ function huge_it_share_buttons_featured_plugins()
 
   add_action( 'wp_enqueue_scripts', 'share_buttons_add_stylesheet' );
 
-    /**
-     * Add stylesheet to the page
-     */
     function share_buttons_add_stylesheet() {
         wp_enqueue_style( 'prefix-style', plugins_url('/style/front.end.css', __FILE__) );
     }
@@ -418,7 +414,7 @@ function my_action_callback() {
 		$wpdb->query("UPDATE ".$wpdb->prefix."huge_it_share_params_posts SET share_active = '".$postactive."'  WHERE share_post_id = '".$share_post_id."' ");
 		//$wpdb->query("UPDATE ".$wpdb->prefix."huge_it_share_params_posts SET share_button_type = '".$_POST["type"]."'  WHERE share_post_id = '".$share_post_id."' ");
 		
-		echo json_encode(array("success"=>1 ,"position"=>$_POST["position"],"size"=>$_POST["size"],"active"=>$_POST["active"],/*"type"=>$_POST["type"]*/));
+		echo json_encode(array("success"=>1 ,"position"=>$_POST["position"],"size"=>$_POST["size"],"active"=>$_POST["active"],));
 		die();
 	}
 }

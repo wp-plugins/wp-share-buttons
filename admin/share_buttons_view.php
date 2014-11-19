@@ -15,7 +15,6 @@ function      html_showStyles($social_buttons, $param_values)
 	
 ?>
 
-<!-- GENERAL PAGE, ADD FIELDS PAGE -->
 
 <div class="wrap">
 	<?php $path_site2 = plugins_url("../images", __FILE__); ?>
@@ -32,7 +31,7 @@ function      html_showStyles($social_buttons, $param_values)
 		</div>
 	</div>
 	<div style="clear: both;"></div>
-<form action="admin.php?page=huge_it_share_buttons&task=save" method="post" id="adminForm" name="adminForm">
+<form action="admin.php?page=huge_it_share-buttons&task=save" method="post" id="adminForm" name="adminForm">
 	<div id="poststuff" >
 		<div id="post-body" class="metabox-holder columns-2">
 		<!-- Content -->
