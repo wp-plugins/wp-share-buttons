@@ -38,4 +38,3 @@ function save_styles_options()
     }
 }
 ?>
-  

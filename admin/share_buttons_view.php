@@ -1,9 +1,7 @@
 <?php
 function      html_showStyles($social_buttons, $param_values)
 {
-
  global $wpdb;
-	
 	if($_GET["addslide"] == 1){
 	header('Location: admin.php?page=hugeit_share-buttonss_huge_it_share-buttons&id='.$row->id.'&task=apply');
 	}
@@ -11,11 +9,7 @@ function      html_showStyles($social_buttons, $param_values)
 	if($_GET["inputtype"]){
 	header('Location: admin.php?page=hugeit_share-buttonss_huge_it_share-buttons&id='.$row->id.'&task=apply');
 	}
-		
-	
 ?>
-
-
 <div class="wrap">
 	<?php $path_site2 = plugins_url("../images", __FILE__); ?>
 		<div class="share-options-head">
@@ -31,7 +25,7 @@ function      html_showStyles($social_buttons, $param_values)
 		</div>
 	</div>
 	<div style="clear: both;"></div>
-<form action="admin.php?page=huge_it_share-buttons&task=save" method="post" id="adminForm" name="adminForm">
+<form action="admin.php?page=huge_it_share_buttons&task=save" method="post" id="adminForm" name="adminForm">
 	<div id="poststuff" >
 		<div id="post-body" class="metabox-holder columns-2">
 		<!-- Content -->
