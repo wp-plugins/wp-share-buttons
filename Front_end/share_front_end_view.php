@@ -72,6 +72,11 @@ ob_start();
 								height:<?php echo $size;?>px;
 							}
 						</style>
+						<?php if (has_post_thumbnail( $post->ID ) ){ ?>
+						<?php $pintimage = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+						<?php } else { 
+						$pintimage[0] = $path_site.'/noimage.png';
+						} ?>
 						<div id="huge-it-share-buttons-top" class="huge-it-share-buttons <?php if($param_values['share_button_block_has_background'] != 'on'){echo 'nobackground'; } ?>">
 							<h3><?php echo $param_values['share_button_title_text']; ?></h3>
 							<ul class="huge-it-share-buttons-list">		
@@ -99,10 +104,7 @@ ob_start();
 												$link= 'https://www.linkedin.com/shareArticle?title='.$str.'&mini=true&url='.$linkthispage;
 												break;
 											case 'share_pinterest_button':
-												$link= 'http://www.pinterest.com/pin/create/button/
-        ?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F
-        &media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg
-        &description=Next%20stop%3A%20Pinterest';
+												$link= 'http://www.pinterest.com/pin/create/button/?url='.$linkthispage.'&media='.$pintimage[0].'&description='.$str.'';
 												break;
 											case 'share_tumblr_button':
 												$link= 'https://www.tumblr.com/share/link?url='.$linkthispage.'&name='.$str;
