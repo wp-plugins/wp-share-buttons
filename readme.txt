@@ -35,7 +35,8 @@ We offer wide selection of most well known social network Share buttons, which y
 
 The installation of Share Buttons plugin is easy and even a beginner can deal with it, Just load, activate, insert in post and start to use. Make your website worldwide in best way!
 
-### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
+
+### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
 
 == Installation ==
 
@@ -83,8 +84,6 @@ All kind of changes made in free version will remain, even if you delete the plu
 **I have already purchased Multi Site version, how do I upgrade it to Developer version, without buying it again?**
 If you have any pro version of our products and want to upgrade it, you do not need to buy the new one again, you only need to pay the difference price.
 For example, if you have personal version and need to upgrade to Multi Site, just buy one more personal, and contact us by info@huge-it.com, send the receipt and we will send Multi Site version, from Multi Site to Developer, just buy one personal, and ask us for Developer version.
-
-### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
     
 == Changelog ==
 
@@ -156,4 +155,5 @@ Share Buttons Custom Styles - Share buttons
 
 2. Copy / Past the shortcode and insert into post
 
-### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
+
+### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
