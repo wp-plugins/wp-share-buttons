@@ -67,10 +67,9 @@ The installation of Share Buttons plugin is easy and even a beginner can deal wi
 
 == Frequently Asked Questions ==
 
-**How to get a copy of most recent version ?**
+**How to get a copy of most recent version ? **
 Pro users can get update versions contacting us by info@huge-it.com.
 Free version  users will find update notification in their wordpress admin panel.
-
 
 **I have paid for pro version and didn’t get the link or file to update**
 If you made purchase and didn’t get the file, or file was corrupt, contact us by info@huge-it.com and send “order number”, we will check and send you the file  as soon as possible
@@ -81,12 +80,12 @@ This can happen because of your browser’s cache files. Press ctrl+f5 (Chrome, 
 **Will I lose all my changes that I made in free version, if I update to pro version?**
 All kind of changes made in free version will remain, even if you delete the plugin
 
-
 **I have already purchased Multi Site version, how do I upgrade it to Developer version, without buying it again?**
 If you have any pro version of our products and want to upgrade it, you do not need to buy the new one again, you only need to pay the difference price.
 For example, if you have personal version and need to upgrade to Multi Site, just buy one more personal, and contact us by info@huge-it.com, send the receipt and we will send Multi Site version, from Multi Site to Developer, just buy one personal, and ask us for Developer version.
 
 ### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
+
     
 == Changelog ==
 
