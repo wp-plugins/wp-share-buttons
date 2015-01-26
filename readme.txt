@@ -16,6 +16,8 @@ Share Buttons - Social network is one of the popular places where people get inf
 
 * [Wordpress Share Buttons](http://huge-it.com/share-buttons/)
 * [Demo Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo/)
+* [Demo Share Buttons Admin](http://huge-it.com/wordpress-plugins-share-buttons-demo-admin/)
+* [User Manual Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-user-manual/)
 
 Social network is one of the popular places where people get information about everything in the world. Adding social share buttons into your blog or website page is very necessary and useful element for "socialization" of the project. 
 We present Huge-It Share Buttons plugin. Our amazing plugin is created and designed for your WordPress websites, to give you an ability quickly share your pages on social networks. How our plugin differs from other plugins? Firstly incredibly beautiful design for icons, that you can select from the list, secondly the options to set the size and position for your icons, place them where it will be mostly convenient to your visitors.
@@ -62,6 +64,29 @@ The installation of Share Buttons plugin is easy and even a beginner can deal wi
 13.  WordPress Share Buttons - Demo Front end
 14.  WordPress Share Buttons - Demo Admin page
 15.  WordPress Share Buttons - Demo Post Page
+
+== Frequently Asked Questions ==
+
+**How to get a copy of most recent version ?**
+Pro users can get update versions contacting us by info@huge-it.com.
+Free version  users will find update notification in their wordpress admin panel.
+
+
+**I have paid for pro version and didn’t get the link or file to update**
+If you made purchase and didn’t get the file, or file was corrupt, contact us by info@huge-it.com and send “order number”, we will check and send you the file  as soon as possible
+
+**Have purchased pro version still get the announcement to buy the commercial version to change settings. What to do ?**
+This can happen because of your browser’s cache files. Press ctrl+f5 (Chrome, FF) in order to clean them, if you use safari, etc., clean from browser settings
+
+**Will I lose all my changes that I made in free version, if I update to pro version?**
+All kind of changes made in free version will remain, even if you delete the plugin
+
+
+**I have already purchased Multi Site version, how do I upgrade it to Developer version, without buying it again?**
+If you have any pro version of our products and want to upgrade it, you do not need to buy the new one again, you only need to pay the difference price.
+For example, if you have personal version and need to upgrade to Multi Site, just buy one more personal, and contact us by info@huge-it.com, send the receipt and we will send Multi Site version, from Multi Site to Developer, just buy one personal, and ask us for Developer version.
+
+### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
     
 == Changelog ==
 
@@ -132,3 +157,5 @@ Share Buttons Custom Styles - Share buttons
 1. In order to insert Share buttons into your post go > Edit Post > Tick on Share buttons. And you will see your buttons on every post, where it has selected
 
 2. Copy / Past the shortcode and insert into post
+
+### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
