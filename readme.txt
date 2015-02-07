@@ -19,6 +19,8 @@ Share Buttons - Social network is one of the popular places where people get inf
 * [Demo Share Buttons Admin](http://huge-it.com/wordpress-plugins-share-buttons-demo-admin/)
 * [User Manual Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-user-manual/)
 
+https://www.youtube.com/watch?v=7UaPYNF7efw
+
 Social network is one of the popular places where people get information about everything in the world. Adding social share buttons into your blog or website page is very necessary and useful element for "socialization" of the project. 
 We present Huge-It Share Buttons plugin. Our amazing plugin is created and designed for your WordPress websites, to give you an ability quickly share your pages on social networks. How our plugin differs from other plugins? Firstly incredibly beautiful design for icons, that you can select from the list, secondly the options to set the size and position for your icons, place them where it will be mostly convenient to your visitors.
 We offer wide selection of most well known social network Share buttons, which you can manually choose : Here is the list of social network Share buttons,  that you can find in Huge-IT Share Buttons:
