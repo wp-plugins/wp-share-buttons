@@ -86,7 +86,17 @@ All kind of changes made in free version will remain, even if you delete the plu
 **I have already purchased Multi Site version, how do I upgrade it to Developer version, without buying it again?**
 If you have any pro version of our products and want to upgrade it, you do not need to buy the new one again, you only need to pay the difference price.
 For example, if you have personal version and need to upgrade to Multi Site, just buy one more personal, and contact us by info@huge-it.com, send the receipt and we will send Multi Site version, from Multi Site to Developer, just buy one personal, and ask us for Developer version.
-    
+
+**I’ve bought the commercial license,  installed the file but the Plugin seems to be still in free version, what to do?**
+After installation of pro version, in General Options all your changes will be saved!
+If you still see "free version" notification after installation of pro version
+1) try to clean your cache files
+if this will not help
+2) delete, and install the plugin again
+
+
+### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
+
 == Changelog ==
 
 = 1.0.4 =
