@@ -353,12 +353,12 @@ function      html_showStyles($social_buttons, $param_values)
 							<li rel="tab-1" class="selected">
 								<h4>Shortcode</h4>
 								<p>Copy &amp; paste the shortcode directly into any WordPress post or page.</p>
-								<textarea class="full" readonly="readonly">[huge_it_share-buttons id="<?php echo $row->id; ?>"]</textarea>
+								<textarea class="full" readonly="readonly">[huge_it_share]</textarea>
 							</li>
 							<li rel="tab-2">
 								<h4>Template Include</h4>
 								<p>Copy &amp; paste this code into a template file to include the slideshow within your theme.</p>
-								<textarea class="full" readonly="readonly">&lt;?php echo do_shortcode("[huge_it_share-buttons id='<?php echo $row->id; ?>']"); ?&gt;</textarea>
+								<textarea class="full" readonly="readonly">&lt;?php echo do_shortcode("[huge_it_share]"); ?&gt;</textarea>
 							</li>
 						</ul>
 					</div>

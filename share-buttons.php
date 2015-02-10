@@ -4,7 +4,7 @@
 Plugin Name: Share Buttons
 Plugin URI: http://huge-it.com/share_buttons/
 Description:Huge-IT Share Buttons Plugin gives you ability to easily add Facebook, Twitter, G+ and many other social sharing buttons to your website.
-Version: 1.0.4
+Version: 1.0.5
 Author: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -422,6 +422,21 @@ function my_action_callback() {
 
 add_action('widgets_init', 'register_huge_it_share_Widget');  
 
+add_action( "add_meta_boxes", "sharebuttons_add_meta_boxes_pages" );
+
+function sharebuttons_add_meta_boxes_pages( $post )
+{
+    add_meta_box( 
+       'huge_it_share_buttons_post',
+       'Share buttons', 
+       'huge_it_share_buttons_post', 
+       'post', 
+       'side', 
+       'core'
+    );
+	
+}
+
 add_action( "add_meta_boxes", "sharebuttons_add_meta_boxes_page" );
 
 function sharebuttons_add_meta_boxes_page( $post )
@@ -430,7 +445,7 @@ function sharebuttons_add_meta_boxes_page( $post )
        'huge_it_share_buttons_post',
        'Share buttons', 
        'huge_it_share_buttons_post', 
-       'post', 
+       'page', 
        'side', 
        'core'
     );
@@ -464,20 +479,7 @@ function huge_it_share_buttons_post( $post )
 	$share_active = 'off';
 	}
 	?>
-
-		<!--<label><input id="huge_it_share_post_id" value="" /></label>
-		<input id="huge_it_share_medias" value="" /><label>Media</label>
-		<label><span>Buttons Style:</span> <input id="huge_it_share_button_style" value="" /></label>-->
 		<div id="huge_it_share_post_block" rel="<?php echo $_REQUEST['post']; ?>">
-			<!--<div>
-			<label for="huge_it_share_button_type_post">
-				<select id="huge_it_share_button_type_post">
-					<option value="toolbar" selected="selected">Toolbar</option>
-					<option  value="counters">Counters</option>
-				</select>
-				Buttons Type
-			</label>
-			</div>-->
 			<div id="post_active">
 				<label>
 					<span>Show buttons on this post</span>
