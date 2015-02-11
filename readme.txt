@@ -70,26 +70,28 @@ The installation of Share Buttons plugin is easy and even a beginner can deal wi
 
 == Frequently Asked Questions ==
 
-**How to get a copy of most recent version ? **
-Pro users can get update versions contacting us by info@huge-it.com.
+### Wordpress Share Buttons
+
+**How to get a copy of most recent version of Share Buttons ? **
+Pro users can get update versions of Huge-IT Share Buttons contacting us by info@huge-it.com.
 Free version  users will find update notification in their wordpress admin panel.
 
-**I have paid for pro version and didn’t get the link or file to update**
-If you made purchase and didn’t get the file, or file was corrupt, contact us by info@huge-it.com and send “order number”, we will check and send you the file  as soon as possible
+**I have paid for pro version of Huge-IT Share Buttons and didn’t get the link or file to update**
+If you made purchase of Huge-IT Share Buttons and didn’t get the file, or file was corrupt, contact us by info@huge-it.com and send “order number”, we will check and send you the zip file of Share Buttons  as soon as possible
 
-**Have purchased pro version still get the announcement to buy the commercial version to change settings. What to do ?**
-This can happen because of your browser’s cache files. Press ctrl+f5 (Chrome, FF) in order to clean them, if you use safari, etc., clean from browser settings
+**Have purchased pro version of Huge-IT Share Buttons still get the announcement to buy the commercial version to change settings. What to do ?**
+This can happen because of your browser’s cache files. Press ctrl+f5 (Chrome, FF) in order to clean them, if you use safari, etc., clean from browser settings.
 
-**Will I lose all my changes that I made in free version, if I update to pro version?**
-All kind of changes made in free version will remain, even if you delete the plugin
+**Will I lose all my changes that I made in free version of Share Buttons, if I update to pro version?**
+All kind of changes made in free Share Buttons version will remain, even if you delete the Share Buttons plugin.
 
-**I have already purchased Multi Site version, how do I upgrade it to Developer version, without buying it again?**
-If you have any pro version of our products and want to upgrade it, you do not need to buy the new one again, you only need to pay the difference price.
-For example, if you have personal version and need to upgrade to Multi Site, just buy one more personal, and contact us by info@huge-it.com, send the receipt and we will send Multi Site version, from Multi Site to Developer, just buy one personal, and ask us for Developer version.
+**I have already purchased Huge-IT Share Buttons Multi Site version, how do I upgrade it to Huge-IT Share Buttons Developer version, without buying it again?**
+If you have any pro version of Share Buttons and want to upgrade it, you do not need to buy the new one again, you only need to pay the difference price.
+For example, if you have Huge-IT Share Buttons Personal version and need to upgrade to Huge-IT Share Buttons Multi Site, just buy one more personal, and contact us by info@huge-it.com, send the receipt and we will send Multi Site version, from Multi Site to Developer, just buy one personal, and ask us for Huge-IT Share Buttons Developer version.
 
-**I’ve bought the commercial license,  installed the file but the Plugin seems to be still in free version, what to do?**
-After installation of pro version, in General Options all your changes will be saved!
-If you still see "free version" notification after installation of pro version
+**I’ve bought the commercial license of Share Buttons,  installed the file but the Plugin seems to be still in free version, what to do?**
+After installation of Share Buttons pro version, in General Options all your changes will be saved!
+If you still see "free version" notification after installation of Share Buttons pro version
 1) try to clean your cache files
 if this will not help
 2) delete, and install the plugin again
