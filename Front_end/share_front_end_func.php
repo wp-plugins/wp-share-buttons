@@ -1,6 +1,7 @@
 <?php
 function showPublishedshare_buttons_1($id)
 {
+	$haveshortcode = $id;
 	global $wpdb;
 	$query="SELECT * FROM ".$wpdb->prefix."huge_it_share_params";
     $rowspar = $wpdb->get_results($query);
@@ -25,6 +26,6 @@ function showPublishedshare_buttons_1($id)
     }
 	$shareifquery = "SELECT * from " . $wpdb->prefix . "huge_it_share_params  where social='social' ";
 	$shareifrows = $wpdb->get_results($shareifquery);
-	return front_end_share_buttons($social_buttons, $param_values, $rowsposts, $shareifrows);
+	return front_end_share_buttons($social_buttons, $param_values, $rowsposts, $shareifrows, $haveshortcode);
 }
 ?>

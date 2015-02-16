@@ -1,7 +1,8 @@
 <?php
-function front_end_share_buttons($social_buttons, $param_values, $rowsposts, $shareifrows)
+function front_end_share_buttons($social_buttons, $param_values, $rowsposts, $shareifrows, $haveshortcode)
 {
 ob_start();
+	//echo $haveshortcode;
 	if(count($rowsposts) > 0){
 	$size=$rowsposts[0]->share_size;
 	}
@@ -11,7 +12,7 @@ ob_start();
 	}
 	$linkthispage = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 	$path_site = plugins_url("/../images", __FILE__);
-	if($rowsposts[0]->share_active != 'off'){
+	if($rowsposts[0]->share_active != 'off' or $haveshortcode == 'on'){
 	$id = get_the_ID();
 ?>
 							<style>

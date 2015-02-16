@@ -4,7 +4,7 @@
 Plugin Name: Share Buttons
 Plugin URI: http://huge-it.com/share_buttons/
 Description:Huge-IT Share Buttons Plugin gives you ability to easily add Facebook, Twitter, G+ and many other social sharing buttons to your website.
-Version: 1.0.5
+Version: 1.0.6
 Author: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -89,7 +89,7 @@ function add_share_buttons_inline_popup_content() {
 				  jQuery('#hugeitshare_buttonsinsert').on('click', function() {
 				  	var id = jQuery('#huge_it_share-select option:selected').val();
 			
-				  	window.send_to_editor('[huge_it_share id="' + id + '"]');
+				  	window.send_to_editor('[huge_it_share]');
 					tb_remove();
 				  })
 				});
@@ -183,9 +183,10 @@ add_shortcode('huge_it_share', 'huge_it_share_images_list_shotrcode');
 
 function   huge_it_share_images_list()
 {
-
+	
     require_once("Front_end/share_front_end_view.php");
     require_once("Front_end/share_front_end_func.php");
+	$id = 'on';
     if (isset($_GET['product_id'])) {
         if (isset($_GET['view'])) {
             if ($_GET['view'] == 'huge_itshare_buttons') {
