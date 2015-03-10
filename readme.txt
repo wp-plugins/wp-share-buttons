@@ -4,7 +4,7 @@ Donate link: http://huge-it.com/share-buttons/
 Tags: share buttons, Share, social icons, share facebook, facebook, network, social, social buttons, twitter, Digg, Google Plus, Linkedin, MySpace, StumbleUpon, Tumblr, Pinterest, google +1, facebook like, facebook share, tweet, links, Like, twitter share, share this, icon, icons, tweet button, twitter button, share links, share button, sharing, google, google plus one, social bookmarking, social bookmarks, social share, social sharing, socialize, sharethis, social media, Social Share Buttons, evernote, button, bookmark button, instapaper, plus one, pin, pin it, sharing is caring, Shareaholic, wpmu, like button, publish Facebook, Social Plugins, Google+1, goo.gl, bookmarks, bookmarking, add this, addtoany, aim, bookmarks menu, google bookmarks, google plus, share and enjoy, share and follow, facebook share button, google widget, sharebar, social media share, add to any, AddThis, bookmark, sociable, page, pages, Reddit, del.icio.us, floating buttons, facebook meta, facebook badge, facebook button, google plus share, facebook sidebar, Facebook send button, facebook plugin, facebook promotion, facebook like box, like box, twitter share button, social bookmark, post buttons, Google share, Social Media Widget, social media sharing, plusone, online sharing, shareholic, shortcode, buffer, +1, responsive,
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,6 +100,9 @@ if this will not help
 ### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
 
 == Changelog ==
+
+= 1.0.7 =
+*  Bug have been fixed in WordPress Share Buttons plugin.
 
 = 1.0.6 =
 *  Bug have been fixed in WordPress Share Buttons plugin.
