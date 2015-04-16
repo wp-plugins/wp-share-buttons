@@ -59,12 +59,13 @@ ob_start();
 							}
 							
 							.huge-it-share-buttons ul li {
-								margin-left:<?php echo $param_values['share_button_margin_between_buttons']; ?>px;
-								margin-right:<?php echo $param_values['share_button_margin_between_buttons']; ?>px;
+								margin-left:<?php echo $param_values['share_button_margin_between_buttons']; ?>px !important;
+								margin-right:<?php echo $param_values['share_button_margin_between_buttons']; ?>px !important;
 								padding:<?php echo $param_values['share_button_buttons_background_padding']; ?>px;
 								border:<?php echo $param_values['share_button_buttons_border_size']; ?>px <?php echo $param_values['share_button_buttons_border_style']; ?> #<?php echo $param_values['share_button_buttons_border_color']; ?>;
 								border-radius:<?php echo $param_values['share_button_buttons_border_radius']; ?>px;
 								background-color:#<?php echo $param_values['share_button_buttons_background_color']; ?>;
+								width:100% !important;
 							}
 							
 							.huge-it-share-buttons ul li #backforunical<?php echo $id; ?> {
