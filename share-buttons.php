@@ -4,7 +4,7 @@
 Plugin Name: Share Buttons
 Plugin URI: http://huge-it.com/share_buttons/
 Description:Huge-IT Share Buttons Plugin gives you ability to easily add Facebook, Twitter, G+ and many other social sharing buttons to your website.
-Version: 1.0.8
+Version: 1.0.9
 Author: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */

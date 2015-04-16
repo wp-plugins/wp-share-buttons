@@ -65,7 +65,7 @@ ob_start();
 								border:<?php echo $param_values['share_button_buttons_border_size']; ?>px <?php echo $param_values['share_button_buttons_border_style']; ?> #<?php echo $param_values['share_button_buttons_border_color']; ?>;
 								border-radius:<?php echo $param_values['share_button_buttons_border_radius']; ?>px;
 								background-color:#<?php echo $param_values['share_button_buttons_background_color']; ?>;
-								width:100% !important;
+								width:auto !important;
 							}
 							
 							.huge-it-share-buttons ul li #backforunical<?php echo $id; ?> {
