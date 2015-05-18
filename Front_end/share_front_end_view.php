@@ -97,7 +97,7 @@ ob_start();
 												$link='https://www.facebook.com/sharer/sharer.php?u='.$linkthispage;
 												break;
 											case 'share_twitter_button':
-												$link= 'https://twitter.com/intent/tweet?url='.$linkthispage.'&text='.$str;
+												$link= 'https://twitter.com/share?status='.$linkthispage.'&text='.$str;
 												break;
 											case 'share_google_plus_button':
 												$link= 'https://plus.google.com/share?url='.$linkthispage;
