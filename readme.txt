@@ -65,8 +65,10 @@ If you think, that you found a bug in our [WordPress Share Buttons](http://huge-
 11.  WordPress Share Buttons - Demo Front end
 12.  WordPress Share Buttons - Demo Front end
 13.  WordPress Share Buttons - Demo Front end
-14.  WordPress Share Buttons - Demo Admin page
-15.  WordPress Share Buttons - Demo Post Page
+14.  WordPress Share Buttons - Demo Front end
+15.  WordPress Share Buttons - Demo Front end
+16.  WordPress Share Buttons - Demo Admin page
+17.  WordPress Share Buttons - Demo Post Page
 
 == Frequently Asked Questions ==
 
