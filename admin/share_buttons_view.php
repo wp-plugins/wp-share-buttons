@@ -2,11 +2,11 @@
 function      html_showStyles($social_buttons, $param_values)
 {
  global $wpdb;
-	if($_GET["addslide"] == 1){
+	if(isset($_GET["addslide"]) && $_GET["addslide"]==  1){
 	header('Location: admin.php?page=hugeit_share-buttonss_huge_it_share-buttons&id='.$row->id.'&task=apply');
 	}
 	
-	if($_GET["inputtype"]){
+	if(isset($_GET["inputtype"]) && $_GET["inputtype"] !=''){
 	header('Location: admin.php?page=hugeit_share-buttonss_huge_it_share-buttons&id='.$row->id.'&task=apply');
 	}
 ?>

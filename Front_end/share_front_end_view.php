@@ -2,8 +2,7 @@
 function front_end_share_buttons($social_buttons, $param_values, $rowsposts, $shareifrows, $haveshortcode)
 {
 ob_start();
-	//echo $haveshortcode;
-	if(count($rowsposts) > 0){
+	if(isset($rowsposts) && count($rowsposts) > 0){
 	$size=$rowsposts[0]->share_size;
 	}
 	else
@@ -12,7 +11,11 @@ ob_start();
 	}
 	$linkthispage = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 	$path_site = plugins_url("/../images", __FILE__);
-	if($rowsposts[0]->share_active != 'off' or $haveshortcode == 'on'){
+	$share_active = false;
+	if(!empty($rowsposts)) {
+		if($rowsposts[0]->share_active != 'off') $share_active = true;
+	}
+	if($share_active or $haveshortcode ){
 	$id = get_the_ID();
 ?>
 							<style>
@@ -74,17 +77,19 @@ ob_start();
 								height:<?php echo $size;?>px;
 							}
 						</style>
-						<?php if (has_post_thumbnail( $post->ID ) ){ ?>
+						<?php if(isset($post)) { if (has_post_thumbnail( $post->ID ) ){ ?>
 						<?php $pintimage = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-						<?php } else { 
+						<?php } 
+						}else { 
 						$pintimage[0] = $path_site.'/noimage.png';
-						} ?>
+						}
+												?>
 						<div id="huge-it-share-buttons-top" class="huge-it-share-buttons <?php if($param_values['share_button_block_has_background'] != 'on'){echo 'nobackground'; } ?>">
 							<h3><?php echo $param_values['share_button_title_text']; ?></h3>
 							<ul class="huge-it-share-buttons-list">		
 								
 								<?php
-								$k=1;
+								$k=1;$i = 0;
 								foreach($social_buttons as $keys=>$socials){
 								$k++;
 								?>
@@ -94,7 +99,7 @@ ob_start();
 											$str=get_the_title();
 											switch($keys){
 											case 'share_facebook_button':
-												$link='https://www.facebook.com/sharer/sharer.php?u='.$linkthispage;
+												$link='https://www.facebook.com/sharer/sharer.php?m2w&u='.$linkthispage;
 												break;
 											case 'share_twitter_button':
 												$link= 'https://twitter.com/share?status='.$linkthispage.'&text='.$str;
