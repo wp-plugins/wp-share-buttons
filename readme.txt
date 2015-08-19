@@ -25,20 +25,20 @@ Social network is one of the popular places where people get information about e
 We present Huge-It Share Buttons plugin. Our amazing plugin is created and designed for your WordPress websites, to give you an ability quickly share your pages on social networks. How our plugin differs from other plugins? Firstly incredibly beautiful design for icons, that you can select from the list, secondly the options to set the size and position for your icons, place them where it will be mostly convenient to your visitors.
 We offer wide selection of most well known social network Share buttons, which you can manually choose : Here is the list of social network Share buttons,  that you can find in Huge-IT Share Buttons:
 
-* Facebook
-* Google Plus
-* Digg
-* Twitter
-* Linkedin
-* MySpace
-* StumbleUpon
-* Tumblr
-* Pinterest
+* Share Buttons - Facebook 
+* Share Buttons - Google Plus
+* Share Buttons - Digg
+* Share Buttons - Twitter
+* Share Buttons - Linkedin
+* Share Buttons - MySpace
+* Share Buttons - StumbleUpon
+* Share Buttons - Tumblr
+* Share Buttons - Pinterest
 
-The installation of Share Buttons plugin is easy and even a beginner can deal with it, Just load, activate, insert in post and start to use. Make your website worldwide in best way!
+The installation of Share Buttons plugin is easy and even a beginner can deal with it, Just load Share Buttons plugin, activate, insert the Share Buttons in post and start to use. Make your website worldwide in best way!
 
 
-If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
+If you think, that you found a bug in our [Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
 
 == Installation ==
 
@@ -61,14 +61,14 @@ If you think, that you found a bug in our [WordPress Share Buttons](http://huge-
 7.  WordPress Share Buttons - Demo Front end
 8.  WordPress Share Buttons - Demo Front end
 9.  WordPress Share Buttons - Demo Front end
-10.  WordPress Share Buttons - Demo Front end
-11.  WordPress Share Buttons - Demo Front end
-12.  WordPress Share Buttons - Demo Front end
-13.  WordPress Share Buttons - Demo Front end
-14.  WordPress Share Buttons - Demo Front end
-15.  WordPress Share Buttons - Demo Front end
-16.  WordPress Share Buttons - Demo Admin page
-17.  WordPress Share Buttons - Demo Post Page
+10. WordPress Share Buttons - Demo Front end
+11. WordPress Share Buttons - Demo Front end
+12. WordPress Share Buttons - Demo Front end
+13. WordPress Share Buttons - Demo Front end
+14. WordPress Share Buttons - Demo Front end
+15. WordPress Share Buttons - Demo Front end
+16. WordPress Share Buttons - Demo Admin page
+17. WordPress Share Buttons - Demo Post Page
 
 == Frequently Asked Questions ==
 
