@@ -3,7 +3,7 @@ Contributors: Huge-IT
 Donate link: http://huge-it.com/share-buttons/
 Tags: share buttons, Share, social icons, share facebook, facebook, network, social, social buttons, twitter, Digg, Google Plus, Linkedin, MySpace, StumbleUpon, Tumblr, Pinterest, google +1, facebook like, facebook share, tweet, links, Like, twitter share, share this, icon, icons, tweet button, twitter button, share links, share button, sharing, google, google plus one, social bookmarking, social bookmarks, social share, social sharing, socialize, sharethis, social media, Social Share Buttons, evernote, button, bookmark button, plus one, pin, pin it, like button, Social Plugins, Google+1, bookmarks, bookmarking, addtoany, bookmarks menu, google plus, facebook share button, google widget, AddThis, bookmark, sociable, Reddit, del.icio.us, floating buttons, facebook meta, facebook button, google plus share, facebook sidebar, facebook plugin, facebook like box, like box, twitter share button, social bookmark, Google share, plusone, +1, facebook recommend, widget facebook, widget twitter,page share, post share,widget share buttons,
 Requires at least: 3.0.1
-Tested up to: 4.2.4
+Tested up to: 4.3
 Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -36,6 +36,12 @@ We offer wide selection of most well known social network Share buttons, which y
 * Share Buttons - Pinterest
 
 The installation of Share Buttons plugin is easy and even a beginner can deal with it, Just load Share Buttons plugin, activate, insert the Share Buttons in post and start to use. Make your website worldwide in best way with Huge-It Share Buttons!
+
+> #### Share Buttons Demos 
+>
+>[Frond end & Admin preview - Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo/)
+>
+>[Frond end & Admin - Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo-admin/)
 
 
 If you think, that you found a bug in our [Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
