@@ -1,10 +1,10 @@
 === Share Buttons ===
 Contributors: Huge-IT
 Donate link: http://huge-it.com/share-buttons/
-Tags: share buttons, Share, social icons, share facebook, facebook, network, social, social buttons, twitter, Digg, Google Plus, Linkedin, MySpace, StumbleUpon, Tumblr, Pinterest, google +1, facebook like, facebook share, tweet, links, Like, twitter share, share this, icon, icons, tweet button, twitter button, share links, share button, sharing, google, google plus one, social bookmarking, social bookmarks, social share, social sharing, socialize, sharethis, social media, Social Share Buttons, evernote, button, bookmark button, plus one, pin, pin it, like button, Social Plugins, Google+1, bookmarks, bookmarking, addtoany, bookmarks menu, google plus, facebook share button, google widget, AddThis, bookmark, sociable, Reddit, del.icio.us, floating buttons, facebook meta, facebook button, google plus share, facebook sidebar, facebook plugin, facebook like box, like box, twitter share button, social bookmark, Google share, plusone, +1, facebook recommend, widget facebook, widget twitter,page share, post share,widget share buttons, post, posts, page, pages,
+Tags: share buttons, Share, social icons, share facebook, facebook, network, social, social buttons, twitter, Digg, Google Plus, Linkedin, MySpace, StumbleUpon, Tumblr, Pinterest, google +1, facebook like, facebook share, tweet, links, Like, twitter share, share this, icon, icons, tweet button, twitter button, share links, share button, sharing, google, google plus one, social bookmarking, social bookmarks, social share, social sharing, socialize, sharethis, social media, Social Share Buttons, evernote, button, bookmark button, plus one, pin, pin it, like button, Social Plugins, Google+1, bookmarks, bookmarking, addtoany, bookmarks menu, google plus, facebook share button, google widget, AddThis, bookmark, sociable, Reddit, del.icio.us, floating buttons, facebook meta, facebook button, google plus share, facebook sidebar, facebook plugin, facebook like box, like box, twitter share button, social bookmark, Google share, plusone, +1, facebook recommend, widget facebook, widget twitter, page share, post share, widget share buttons, widget, post, posts, page, pages,
 Requires at least: 3.0.1
 Tested up to: 4.3.1
-Stable tag: 1.1.2
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,9 +15,9 @@ Share Buttons - Social network is one of the popular places where people get inf
 ### Wordpress Share Buttons
 
 * [Wordpress Share Buttons](http://huge-it.com/share-buttons/)
-* [Demo Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo/)
-* [Demo Share Buttons Admin](http://huge-it.com/wordpress-plugins-share-buttons-demo-admin/)
-* [User Manual Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-user-manual/)
+* [Demo Share Buttons](http://huge-it.com/wordpress-share-buttons-demo/)
+* [FAQ Share Buttons](http://huge-it.com/wordpress-share-buttons-faq/)
+* [User Manual Share Buttons](http://huge-it.com/wordpress-share-buttons-user-manual/)
 
 https://www.youtube.com/watch?v=7UaPYNF7efw
 
@@ -39,9 +39,9 @@ The installation of Share Buttons plugin is easy and even a beginner can deal wi
 
 > #### Share Buttons Demos 
 >
->[Frond end & Admin preview - Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo/)
+>[Frond end & Admin preview - Share Buttons](http://huge-it.com/wordpress-share-buttons-demo/)
 >
->[Frond end & Admin - Share Buttons](http://huge-it.com/wordpress-plugins-share-buttons-demo-admin/)
+>[FAQ - Share Buttons](http://huge-it.com/wordpress-share-buttons-faq/)
 
 
 If you think, that you found a bug in our [Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
@@ -108,6 +108,15 @@ if this will not help
 ### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
 
 == Changelog ==
+
+= 1.1.5 =
+*  Some mirror Bug have been fixed in WordPress Share Buttons plugin.
+
+= 1.1.4 =
+*  Bug have been fixed in WordPress Share Buttons plugin.
+
+= 1.1.3 =
+*  Bug have been fixed in WordPress Share Buttons plugin.
 
 = 1.1.2 =
 *  Bug have been fixed in WordPress Share Buttons plugin.
@@ -199,7 +208,7 @@ Share Buttons Custom Styles - Share buttons
 
 1. In order to insert Share buttons into your post go > Edit Post > Tick on Share buttons. And you will see your buttons on every post, where it has selected
 
-2. Copy / Past the shortcode and insert into post
+2. Copy / Past the shortcode and insert into post - Share Buttons
 
 
 ### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).

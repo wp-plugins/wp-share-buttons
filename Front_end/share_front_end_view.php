@@ -11,11 +11,11 @@ ob_start();
 	}
 	$linkthispage = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 	$path_site = plugins_url("/../images", __FILE__);
-	$share_active = false;
+	$share_active = true;
 	if(!empty($rowsposts)) {
-		if($rowsposts[0]->share_active != 'off') $share_active = true;
+		if($rowsposts[0]->share_active == 'off') $share_active = false;
 	}
-	if($share_active or $haveshortcode ){
+	if (($share_active == true) || ($share_active == false &&  $haveshortcode == "on")){
 	$id = get_the_ID();
 ?>
 							<style>
