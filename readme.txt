@@ -37,11 +37,15 @@ We offer wide selection of most well known social network Share buttons, which y
 
 The installation of Share Buttons plugin is easy and even a beginner can deal with it, Just load Share Buttons plugin, activate, insert the Share Buttons in post and start to use. Make your website worldwide in best way with Huge-It Share Buttons!
 
-> #### Share Buttons Demos 
+> #### Share Buttons Demo 
 >
 >[Frond end & Admin preview - Share Buttons](http://huge-it.com/wordpress-share-buttons-demo/)
 >
+> #### Share Buttons FAQ and User Manual
+>
 >[FAQ - Share Buttons](http://huge-it.com/wordpress-share-buttons-faq/)
+>
+>[FAQ - Share Buttons](http://huge-it.com/wordpress-share-buttons-user-manual/)
 
 
 If you think, that you found a bug in our [Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
