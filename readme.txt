@@ -84,6 +84,18 @@ If you think, that you found a bug in our [Share Buttons](http://huge-it.com/sha
 
 ### Wordpress Share Buttons
 
+**How to install the PRO version of Share Buttons?**
+
+**How to install the PRO version of Share Buttons?**
+In order to install pro version of the plugin, simply follow these steps: delete your free version >	install the zip file | Plugins > add new > upload plugin >	clean your cache files |ctrl+f5|.
+Don’t be afraid of deleting free version, because you will NOT lose your created portfolios.
+
+**I see to share buttons on my page**
+If you see two share buttons on your page, that means you added shortcode without turning off “show share buttons” on that page. Plugin automatically adds share buttons in the page, so no need to add shortcode again.
+
+**Share Buttons shares another image from the page**
+Which image share buttons will share depends on the configurations of the page. Put setting correct to be able to share the right one.
+
 **How to get a copy of most recent version of Share Buttons ? **
 Pro users can get update versions of Huge-IT Share Buttons contacting us by info@huge-it.com.
 Free version  users will find update notification in their wordpress admin panel.
