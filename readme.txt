@@ -85,8 +85,6 @@ If you think, that you found a bug in our [Share Buttons](http://huge-it.com/sha
 ### Wordpress Share Buttons
 
 **How to install the PRO version of Share Buttons?**
-
-**How to install the PRO version of Share Buttons?**
 In order to install pro version of the plugin, simply follow these steps: delete your free version >	install the zip file | Plugins > add new > upload plugin >	clean your cache files |ctrl+f5|.
 Don’t be afraid of deleting free version, because you will NOT lose your created portfolios.
 
@@ -119,6 +117,10 @@ If you still see "free version" notification after installation of Share Buttons
 1) try to clean your cache files
 if this will not help
 2) delete, and install the plugin again
+
+
+**I have already purchased Multi Site version, how do I upgrade it to Developer version, without buying it again?**
+If you have any pro version our portfolio gallery plugin of our products and want to upgrade it, you do not need to buy the new portfolio gallery once again, you only need to pay the difference price. For that simply contact info@huge-it.com or our online chat and we will help you to pay the difference.
 
 
 ### If you think, that you found a bug in our [WordPress Share Buttons](http://huge-it.com/share-buttons/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
