@@ -137,11 +137,11 @@ function      html_showStyles($social_buttons, $param_values)
 		</style>
 	<div class="free_version_banner">
 		<img class="manual_icon" src="<?php echo $path_site2; ?>/icon-user-manual.png" alt="user manual" />
-		<p class="usermanual_text">If you have any difficulties in using the options, Follow the link to <a href="http://huge-it.com/wordpress-share-buttons-user-manual/" target="_blank">User Manual</a></p>
-		<a class="get_full_version" href="http://huge-it.com/share-buttons/" target="_blank">GET THE FULL VERSION</a>
+		<p class="usermanual_text"><?php echo __('If you have any difficulties in using the options, Follow the link to', 'share-buttons'); ?> <a href="http://huge-it.com/wordpress-share-buttons-user-manual/" target="_blank"><?php echo __('User Manual', 'share-buttons'); ?></a></p>
+		<a class="get_full_version" href="http://huge-it.com/share-buttons/" target="_blank"><?php echo __('GET THE FULL VERSION', 'share-buttons'); ?></a>
                 <a href="http://huge-it.com" target="_blank"><img class="huge_it_logo" src="<?php echo $path_site2; ?>/Huge-It-logo.png"/></a>
                 <div style="clear: both;"></div>
-		<div  class="description_text"><p>This is the free version of the plugin. Click "GET THE FULL VERSION" for more advanced options.   We appreciate every customer.</p></div>
+		<div  class="description_text"><p><?php echo __('This is the free version of the plugin. Click "GET THE FULL VERSION" for more advanced options. We appreciate every customer.', 'share-buttons'); ?></p></div>
 	</div>
 	<div style="clear: both;"></div>
 <form action="admin.php?page=huge_it_share_buttons&task=save" method="post" id="adminForm" name="adminForm">
@@ -152,7 +152,7 @@ function      html_showStyles($social_buttons, $param_values)
 				<?php add_thickbox(); ?>
 				
 				<div id="post-body-heading">
-					<h3>Share Buttons</h3>
+					<h3><?php echo __('Share Buttons', 'share-buttons'); ?></h3>
 				</div>
 				<div id="options-block">
 					<?php $path_site = plugins_url("/../images", __FILE__); ?>
@@ -167,7 +167,7 @@ function      html_showStyles($social_buttons, $param_values)
 					</div>
 					-->
 					<div>
-						<h3>Share Buttons Social Medias</h3>
+						<h3><?php echo __('Share Buttons Social Medias', 'share-buttons'); ?></h3>
 						<ul id="socials-list">
 							<li <?php if($param_values['share_facebook_button'] == 'on'){echo 'class="active"';} ?>>
 								<label>
@@ -247,7 +247,7 @@ function      html_showStyles($social_buttons, $param_values)
 						</ul>
 					</div>
 					<div id="buttons_size_block">
-						<h3>Share Buttons size</h3>
+						<h3><?php echo __('Share Buttons size', 'share-buttons'); ?></h3>
 						<ul id="buttons_size_list">
 							<li class="<?php if($param_values['huge_it_share_size'] == '40'){echo 'active';} ?> big"><input type="radio" value="40" name="params[huge_it_share_size]" <?php if($param_values['huge_it_share_size'] == '40'){echo 'checked="checked"';} ?>checked="checked" /></li>
 							<li class="<?php if($param_values['huge_it_share_size'] == '30'){echo 'active';} ?> medium"><input type="radio" value="30" name="params[huge_it_share_size]" <?php if($param_values['huge_it_share_size'] == '30'){echo 'checked="checked"';} ?>></li>
@@ -279,7 +279,7 @@ function      html_showStyles($social_buttons, $param_values)
 						</ul>
 					</div>
 					<div class="pro">
-						<h3>Buttons style <span class="pro">PRO</span></h3>
+						<h3><?php echo __('Buttons style', 'share-buttons'); ?> <span class="pro"><?php echo __('PRO', 'share-buttons'); ?></span></h3>
 						<ul id="styles_list">
 							<li class="social_0 <?php if($param_values['share_button_icons_style'] == '0'){echo 'active';} ?>"><label><input type="radio" name="share_button_icons_style" <?php if($param_values['share_button_icons_style'] == '0'){echo 'checked="checked"';} ?> value="0" checked="checked" /><span></span></label></li>
 							<li class="social_1 <?php if($param_values['share_button_icons_style'] == '1'){echo 'active';} ?>"><label><input type="radio" name="share_button_icons_style" <?php if($param_values['share_button_icons_style'] == '1'){echo 'checked="checked"';} ?> value="1" /></label></li>
@@ -295,29 +295,29 @@ function      html_showStyles($social_buttons, $param_values)
 						</ul>
 					</div>
 					<div class="other-options pro">
-						<h3>Share Buttons Block <span class="pro">PRO</span></h3>
-						<label><span>Block Has Background</span><input type="hidden" name="" value="" /><input  id="share_button_block_has_background" type="checkbox" name="" <?php if($param_values['share_button_block_has_background'] == 'on'){echo 'checked="checked"';} ?> value="on" /></label>
-						<label><span>Block Background Color</span><input id="share_button_block_background_color" type="text" class="color" name="params[share_button_block_background_color]"  value="<?php echo $param_values['share_button_block_background_color']; ?>" /></label>
-						<label><span>Block Border Size</span><input id="share_button_block_border_size" type="number" name=""  value="<?php echo $param_values['share_button_block_border_size']; ?>" /></label>
-						<label><span>Block Border Color</span><input id="share_button_block_border_color" type="text" class="color" name=""  value="<?php echo $param_values['share_button_block_border_color']; ?>" /></label>
-						<label><span>Block Border Radius</span><input id="share_button_block_border_radius" type="number" name=""  value="<?php echo $param_values['share_button_block_border_radius']; ?>" /></label>
-						<label><span>Margin From Content</span><input id="share_button_margin_from_content" type="number" name=""  value="<?php echo $param_values['share_button_margin_from_content']; ?>" /></label>
+						<h3><?php echo __('Buttons style', 'share-buttons'); ?> <span class="pro"><?php echo __('PRO', 'share-buttons'); ?></span></h3>
+						<label><span><?php echo __('Block Has Background', 'share-buttons'); ?></span><input type="hidden" name="" value="" /><input  id="share_button_block_has_background" type="checkbox" name="" <?php if($param_values['share_button_block_has_background'] == 'on'){echo 'checked="checked"';} ?> value="on" /></label>
+						<label><span><?php echo __('Block Background Color', 'share-buttons'); ?></span><input id="share_button_block_background_color" type="text" class="color" name="params[share_button_block_background_color]"  value="<?php echo $param_values['share_button_block_background_color']; ?>" /></label>
+						<label><span><?php echo __('Block Border Size', 'share-buttons'); ?></span><input id="share_button_block_border_size" type="number" name=""  value="<?php echo $param_values['share_button_block_border_size']; ?>" /></label>
+						<label><span><?php echo __('Block Border Color', 'share-buttons'); ?></span><input id="share_button_block_border_color" type="text" class="color" name=""  value="<?php echo $param_values['share_button_block_border_color']; ?>" /></label>
+						<label><span><?php echo __('Block Border Radius', 'share-buttons'); ?></span><input id="share_button_block_border_radius" type="number" name=""  value="<?php echo $param_values['share_button_block_border_radius']; ?>" /></label>
+						<label><span><?php echo __('Margin From Content', 'share-buttons'); ?></span><input id="share_button_margin_from_content" type="number" name=""  value="<?php echo $param_values['share_button_margin_from_content']; ?>" /></label>
 					</div>
 					<div class="other-options pro">
-						<h3>Share Buttons Title <span class="pro">PRO</span></h3>
-						<label><span>Title Text</span><input id="share_button_title_text" type="text" name=""  value="<?php echo $param_values['share_button_title_text']; ?>" /></label>
-						<label><span>Title Position</span>
+						<h3><?php echo __('Share Buttons Title', 'share-buttons'); ?> <span class="pro"><?php echo __('PRO', 'share-buttons'); ?></span></h3>
+						<label><span><?php echo __('Title Text', 'share-buttons'); ?></span><input id="share_button_title_text" type="text" name=""  value="<?php echo $param_values['share_button_title_text']; ?>" /></label>
+						<label><span><?php echo __('Title Position', 'share-buttons'); ?></span>
 							<select id="share_button_title_position" name="">
-								<option <?php if($param_values['share_button_title_position'] == 'left'){echo 'selected="selected"';} ?> value="left">Left</option>
-								<option <?php if($param_values['share_button_title_position'] == 'right'){echo 'selected="selected"';} ?> value="right">Right</option>
-								<option <?php if($param_values['share_button_title_position'] == 'top'){echo 'selected="selected"';} ?> value="top">Top</option>
+								<option <?php if($param_values['share_button_title_position'] == 'left'){echo 'selected="selected"';} ?> value="left"><?php echo __('Left', 'share-buttons'); ?></option>
+								<option <?php if($param_values['share_button_title_position'] == 'right'){echo 'selected="selected"';} ?> value="right"><?php echo __('Right', 'share-buttons'); ?></option>
+								<option <?php if($param_values['share_button_title_position'] == 'top'){echo 'selected="selected"';} ?> value="top"><?php echo __('Top', 'share-buttons'); ?></option>
 							</select>
 						</label>
-						<label><span>Title Font Size</span><input id="share_button_title_font_size" type="number" name=""  value="<?php echo $param_values['share_button_title_font_size']; ?>" /></label>
-						<label><span>Title Color</span><input id="share_button_title_color" type="text" class="color" name=""  value="<?php echo $param_values['share_button_title_color']; ?>" /></label>
-						<label><span>Title Font Style(Family)</span>
+						<label><span><?php echo __('Title Font Size', 'share-buttons'); ?></span><input id="share_button_title_font_size" type="number" name=""  value="<?php echo $param_values['share_button_title_font_size']; ?>" /></label>
+						<label><span><?php echo __('Title Color', 'share-buttons'); ?></span><input id="share_button_title_color" type="text" class="color" name=""  value="<?php echo $param_values['share_button_title_color']; ?>" /></label>
+						<label><span><?php echo __('Title Font Style(Family)', 'share-buttons'); ?></span>
 							<select id="share_button_title_font_style_family" name="">
-								<option <?php if($param_values['share_button_title_font_style_family'] == ''){echo 'selected="selected"';} ?> value="">Default</option>
+								<option <?php if($param_values['share_button_title_font_style_family'] == ''){echo 'selected="selected"';} ?> value=""><?php echo __('Default', 'share-buttons'); ?></option>
 								<option <?php if($param_values['share_button_title_font_style_family'] == 'Arial,Helvetica Neue,Helvetica,sans-serif'){echo 'selected="selected"';} ?> value="Arial,Helvetica Neue,Helvetica,sans-serif">Arial *</option>
 								<option <?php if($param_values['share_button_title_font_style_family'] == 'Arial Black,Arial Bold,Arial,sans-serif'){echo 'selected="selected"';} ?> value="Arial Black,Arial Bold,Arial,sans-serif">Arial Black *</option>
 								<option <?php if($param_values['share_button_title_font_style_family'] == 'Arial Narrow,Arial,Helvetica Neue,Helvetica,sans-serif'){echo 'selected="selected"';} ?> value="Arial Narrow,Arial,Helvetica Neue,Helvetica,sans-serif">Arial Narrow *</option>
@@ -341,22 +341,22 @@ function      html_showStyles($social_buttons, $param_values)
 						</label>
 					</div>
 					<div class="other-options pro">
-						<h3>Buttons Custom Styles <span class="pro">PRO</span></h3>
-						<label><span>Margin Between Buttons</span><input id="share_button_margin_between_buttons" type="number" name="" value="<?php echo $param_values['share_button_margin_between_buttons']; ?>" /></label>
-						<label><span>Buttons Has Background</span><input type="hidden" name="" value="" /><input  id="share_button_buttons_has_background" type="checkbox" name="params[share_button_buttons_has_background]" <?php if($param_values['share_button_buttons_has_background'] == 'on'){echo 'checked="checked"';} ?> value="on" /></label>
-						<label><span>Buttons Background Padding</span><input id="share_button_buttons_background_padding"   type="number" name=""  value="<?php echo $param_values['share_button_buttons_background_padding']; ?>" /></label>
-						<label><span>Buttons Background Color</span><input id="share_button_buttons_background_color" type="text" class="color" name=""  value="<?php echo $param_values['share_button_buttons_background_color']; ?>" /></label>
-						<label><span>Buttons Border Size</span><input id="share_button_buttons_border_size" type="number" name=""  value="<?php echo $param_values['share_button_buttons_border_size']; ?>" /></label>
-						<label><span>Buttons Border Style</span>
+						<h3><?php echo __('Buttons Custom Styles', 'share-buttons'); ?> <span class="pro"><?php echo __('PRO', 'share-buttons'); ?></span></h3>
+						<label><span><?php echo __('Margin Between Buttons', 'share-buttons'); ?></span><input id="share_button_margin_between_buttons" type="number" name="" value="<?php echo $param_values['share_button_margin_between_buttons']; ?>" /></label>
+						<label><span><?php echo __('Buttons Has Background', 'share-buttons'); ?></span><input type="hidden" name="" value="" /><input  id="share_button_buttons_has_background" type="checkbox" name="params[share_button_buttons_has_background]" <?php if($param_values['share_button_buttons_has_background'] == 'on'){echo 'checked="checked"';} ?> value="on" /></label>
+						<label><span><?php echo __('Buttons Background Padding', 'share-buttons'); ?></span><input id="share_button_buttons_background_padding"   type="number" name=""  value="<?php echo $param_values['share_button_buttons_background_padding']; ?>" /></label>
+						<label><span><?php echo __('Buttons Background Color', 'share-buttons'); ?></span><input id="share_button_buttons_background_color" type="text" class="color" name=""  value="<?php echo $param_values['share_button_buttons_background_color']; ?>" /></label>
+						<label><span><?php echo __('Buttons Border Size', 'share-buttons'); ?></span><input id="share_button_buttons_border_size" type="number" name=""  value="<?php echo $param_values['share_button_buttons_border_size']; ?>" /></label>
+						<label><span><?php echo __('Buttons Border Style', 'share-buttons'); ?></span>
 							<select id="share_button_buttons_border_style" name="share_button_buttons_border_style">
-								<option <?php if($param_values['share_button_buttons_border_style'] == 'solid'){echo 'selected="selected"';} ?> value="solid">Standard</option>
-								<option <?php if($param_values['share_button_buttons_border_style'] == 'dotted'){echo 'selected="selected"';} ?> value="dotted">Dotted</option>
-								<option <?php if($param_values['share_button_buttons_border_style'] == 'double'){echo 'selected="selected"';} ?> value="double">Double</option>
-								<option <?php if($param_values['share_button_buttons_border_style'] == 'ridge'){echo 'selected="selected"';} ?> value="ridge">Ridge</option>
+								<option <?php if($param_values['share_button_buttons_border_style'] == 'solid'){echo 'selected="selected"';} ?> value="solid"><?php echo __('Standard', 'share-buttons'); ?></option>
+								<option <?php if($param_values['share_button_buttons_border_style'] == 'dotted'){echo 'selected="selected"';} ?> value="dotted"><?php echo __('Dotted', 'share-buttons'); ?></option>
+								<option <?php if($param_values['share_button_buttons_border_style'] == 'double'){echo 'selected="selected"';} ?> value="double"><?php echo __('Double', 'share-buttons'); ?></option>
+								<option <?php if($param_values['share_button_buttons_border_style'] == 'ridge'){echo 'selected="selected"';} ?> value="ridge"><?php echo __('Ridge', 'share-buttons'); ?></option>
 							</select>
 						</label>
-						<label><span>Buttons Border Color</span><input id="share_button_buttons_border_color" type="text"  class="color" name=""  value="<?php echo $param_values['share_button_buttons_border_color']; ?>" /></label>
-						<label><span>Buttons Border Radius</span><input id="share_button_buttons_border_radius" type="number"  name=""  value="<?php echo $param_values['share_button_buttons_border_radius']; ?>" /></label>
+						<label><span><?php echo __('Buttons Border Color', 'share-buttons'); ?></span><input id="share_button_buttons_border_color" type="text"  class="color" name=""  value="<?php echo $param_values['share_button_buttons_border_color']; ?>" /></label>
+						<label><span><?php echo __('Buttons Border Radius', 'share-buttons'); ?></span><input id="share_button_buttons_border_radius" type="number"  name=""  value="<?php echo $param_values['share_button_buttons_border_radius']; ?>" /></label>
 					</div>
 				</div>
 				
@@ -435,7 +435,7 @@ function      html_showStyles($social_buttons, $param_values)
 						
 							<div class="clear"></div>
 						</div>
-						<h1>This is demo content</h1>
+						<h1><?php echo __('This is demo content', 'share-buttons'); ?></h1>
 						<span class="date">25 March 2015</span>
 						<div class="clear">
 							<img src="<?php echo $path_site;?>/matt.jpg" class="blog-image" alt="Matt Mullenweg" />
@@ -457,27 +457,27 @@ function      html_showStyles($social_buttons, $param_values)
 			<!-- SIDEBAR -->
 			<div id="postbox-container-1" class="postbox-container">
 				<div id="hugeit_share-buttons-unique-options" class="postbox">
-					<h3 class="hndle"><span>Save Options</span></h3>
+					<h3 class="hndle"><span><?php echo __('Save Options', 'share-buttons'); ?></span></h3>
 					<div id="major-publishing-actions">
 						<div id="publishing-action">
-							<a onclick="document.getElementById('adminForm').submit()" class="save-gallery-options button-primary">Save</a>
+							<a onclick="document.getElementById('adminForm').submit()" class="save-gallery-options button-primary"><?php echo __('Save', 'share-buttons'); ?></a>
 						</div>
 						<div class="clear"></div>
 					</div>
 				</div>
 				<div id="hugeit_share-buttons-shortcode-box" class="postbox shortcode ms-toggle">
-					<h3 class="hndle"><span>Usage</span></h3>
+					<h3 class="hndle"><span><?php echo __('Usage', 'share-buttons'); ?></span></h3>
 					<div class="inside">
 						<ul>
 							<li rel="tab-1" class="selected">
-								<h4>Shortcode</h4>
-								<p>Copy &amp; paste the shortcode directly into any WordPress post or page.</p>
+								<h4><?php echo __('Shortcode', 'share-buttons'); ?></h4>
+								<p><?php echo __('Copy &amp; paste the shortcode directly into any WordPress post or page.', 'share-buttons'); ?></p>
 								<textarea class="full" readonly="readonly">[huge_it_share]</textarea>
 							</li>
 							<li rel="tab-2">
-								<h4>Template Include</h4>
-								<p>Copy &amp; paste this code into a template file to include the slideshow within your theme.</p>
-								<textarea class="full" readonly="readonly">&lt;?php echo do_shortcode("[huge_it_share]"); ?&gt;</textarea>
+								<h4><?php echo __('Template Include', 'share-buttons'); ?></h4>
+								<p><?php echo __('Copy &amp; paste this code into a template file to include the slideshow within your theme.', 'share-buttons'); ?></p>
+								<textarea class="full" readonly="readonly"><?php echo __('&lt;?php echo do_shortcode("[huge_it_share]"); ?&gt;', 'share-buttons'); ?></textarea>
 							</li>
 						</ul>
 					</div>

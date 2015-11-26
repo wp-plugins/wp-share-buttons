@@ -143,13 +143,13 @@
 		</div>
 	</div>
 	<div class="right-block">
-		<div class="title-block"><h3>Wordpress Slider</h3></div>
+		<div class="title-block"><h3><?php echo __('Wordpress Slider', 'share-buttons'); ?></h3></div>
 		<div class="description-block">
-			<p>Huge-IT slider is an awesome WordPress slider plugin with a lot of nice features. Just install and build sliders in a few minutes.</p>
-			<p>Huge-IT Slider is a quick and easy way to add custom sliders to the WordPress websites (both to templates and posts/pages). The slider allows having unlimited amount of images with their titles and descriptions.</p>
+			<p><?php echo __('Huge-IT slider is an awesome WordPress slider plugin with a lot of nice features. Just install and build sliders in a few minutes.', 'share-buttons'); ?></p>
+			<p><?php echo __('Huge-IT Slider is a quick and easy way to add custom sliders to the WordPress websites (both to templates and posts/pages). The slider allows having unlimited amount of images with their titles and descriptions.', 'share-buttons'); ?></p>
 		</div>			  				
 		<div class="button-block">
-			<a href="http://huge-it.com/slider/" target="_blank">View Plugin</a>
+			<a href="http://huge-it.com/slider/" target="_blank"><?php echo __('View Plugin', 'share-buttons'); ?></a>
 		</div>
 	</div>
 </div>
@@ -160,12 +160,12 @@
 		</div>
 	</div>
 	<div class="right-block">
-		<div class="title-block"><h3>Wordpress Portfolio/Gallery</h3></div>
+		<div class="title-block"><h3><?php echo __('Wordpress Portfolio/Gallery', 'share-buttons'); ?></h3></div>
 		<div class="description-block">
-			<p>Portfolio Gallery is perfect for using for creating various portfolios or gallery within various views. The product allows adding descriptions and titles for each portfolio gallery. It is rather useful whever using with various pages and posts, as well as within custom location.</p>
+			<p><?php echo __('Portfolio Gallery is perfect for using for creating various portfolios or gallery within various views. The product allows adding descriptions and titles for each portfolio gallery. It is rather useful whever using with various pages and posts, as well as within custom location.', 'share-buttons'); ?></p>
 		</div>			  				
 		<div class="button-block">
-			<a href="http://huge-it.com/portfolio-gallery/" target="_blank">View Plugin</a>
+			<a href="http://huge-it.com/portfolio-gallery/" target="_blank"><?php echo __('View Plugin', 'share-buttons'); ?></a>
 		</div>
 	</div>
 </div>
@@ -176,12 +176,12 @@
 		</div>
 	</div>
 	<div class="right-block">
-		<div class="title-block"><h3>Wordpress Lightbox</h3></div>
+		<div class="title-block"><h3><?php echo __('Wordpress Lightbox', 'share-buttons'); ?></h3></div>
 		<div class="description-block">
-			<p>Lightbox is a perfect tool for viewing photos. It is created especially for simplification of using, permits you to view larger version of images and giving an interesting design. With the help of slideshow and various styles, betray a unique image to your website.</p>
+			<p><?php echo __('Lightbox is a perfect tool for viewing photos. It is created especially for simplification of using, permits you to view larger version of images and giving an interesting design. With the help of slideshow and various styles, betray a unique image to your website.', 'share-buttons'); ?></p>
 		</div>			  				
 		<div class="button-block">
-			<a href="http://huge-it.com/lightbox/" target="_blank">View Plugin</a>
+			<a href="http://huge-it.com/lightbox/" target="_blank"><?php echo __('View Plugin', 'share-buttons'); ?></a>
 		</div>
 	</div>
 </div>
@@ -192,12 +192,12 @@
 		</div>
 	</div>
 	<div class="right-block">
-		<div class="title-block"><h3>Wordpress Image Gallery</h3></div>
+		<div class="title-block"><h3><?php echo __('Wordpress Image Gallery', 'share-buttons'); ?></h3></div>
 		<div class="description-block">
-			<p>Huge-IT Image Gallery is the best plugin to use if you want to be original with your website. Image Gallery has specially made to allow it’s users create a lot of ways to represent your images, videos and information.</p>
+			<p><?php echo __('Huge-IT Image Gallery is the best plugin to use if you want to be original with your website. Image Gallery has specially made to allow it’s users create a lot of ways to represent your images, videos and information.', 'share-buttons'); ?></p>
 		</div>			  				
 		<div class="button-block">
-			<a href="http://huge-it.com/wordpress-gallery/" target="_blank">View Plugin</a>
+			<a href="http://huge-it.com/wordpress-gallery/" target="_blank"><?php echo __('View Plugin', 'share-buttons'); ?></a>
 		</div>
 	</div>
 </div>
@@ -208,12 +208,12 @@
 		</div>
 	</div>
 	<div class="right-block">
-		<div class="title-block"><h3>Wordpress Video Gallery</h3></div>
+		<div class="title-block"><h3><?php echo __('Wordpress Video Gallery', 'share-buttons'); ?></h3></div>
 		<div class="description-block">
-			<p>Video Gallery plugin was created and specifically designed to show your videos from Vimeo and Youtube in unusual splendid ways. It has 5 good-looking views. Each are made in different taste so that you can choose any of them, according to the style of your website.</p>
+			<p><?php echo __('Video Gallery plugin was created and specifically designed to show your videos from Vimeo and Youtube in unusual splendid ways. It has 5 good-looking views. Each are made in different taste so that you can choose any of them, according to the style of your website.', 'share-buttons'); ?></p>
 		</div>			  				
 		<div class="button-block">
-			<a href="http://huge-it.com/wordpress-video-gallery/" target="_blank">View Plugin</a>
+			<a href="http://huge-it.com/wordpress-video-gallery/" target="_blank"><?php echo __('View Plugin', 'share-buttons'); ?></a>
 		</div>
 	</div>
 </div>
@@ -224,12 +224,12 @@
 		</div>
 	</div>
 	<div class="right-block">
-		<div class="title-block"><h3>Wordpress Google Map</h3></div>
+		<div class="title-block"><h3><?php echo __('Wordpress Google Map', 'share-buttons'); ?></h3></div>
 		<div class="description-block">
-			<p>Huge-IT Google Map. One more perfect tool from Huge-IT. Improved Google Map, where we have our special contribution. Most simple and effective tool for rapid creation of individual Google Map in posts and pages.</p>
+			<p><?php echo __('Huge-IT Google Map. One more perfect tool from Huge-IT. Improved Google Map, where we have our special contribution. Most simple and effective tool for rapid creation of individual Google Map in posts and pages.', 'share-buttons'); ?></p>
 		</div>			  				
 		<div class="button-block">
-			<a href="http://huge-it.com/google-map/" target="_blank">View Plugin</a>
+			<a href="http://huge-it.com/google-map/" target="_blank"><?php echo __('View Plugin', 'share-buttons'); ?></a>
 		</div>
 	</div>
 </div>

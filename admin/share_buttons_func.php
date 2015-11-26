@@ -33,7 +33,7 @@ function save_styles_options()
           );
       }
       ?>
-      <div class="updated"><p><strong><?php _e('Item Saved'); ?></strong></p></div>
+      <div class="updated"><p><strong><?php echo __('Item Saved', 'share-buttons'); ?></strong></p></div>
       <?php
     }
 }

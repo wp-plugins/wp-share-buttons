@@ -4,11 +4,18 @@
 Plugin Name: Share Buttons
 Plugin URI: http://huge-it.com/share_buttons/
 Description:Huge-IT Share Buttons Plugin gives you ability to easily add Facebook, Twitter, G+ and many other social sharing buttons to your website.
-Version: 1.1.5
+Version: 1.1.6
 Author: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: share-buttons
+Domain Path: /languages
 */
 
+function share_load_plugin_textdomain() {
+    load_plugin_textdomain( 'share-buttons', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+}
+
+add_action( 'plugins_loaded', 'share_load_plugin_textdomain' );
 
 function my_the_content_filter($content) {
 
@@ -96,7 +103,7 @@ function add_share_buttons_inline_popup_content() {
 </script>
 
 <div id="huge_it_share" style="display:none;">
-  <h3>Select Huge IT Share Buttons to insert into post</h3>
+  <h3><?php echo __('Select Huge IT Share Buttons to insert into post', 'share-buttons'); ?></h3>
  <?php 
 							echo "<select id='huge_it_share-select'>";
 								echo "<option value='1'>Share Buttons</option>";
@@ -239,18 +246,17 @@ function huge_it_share_buttons_Licensing(){
 	?>
     <div style="width:95%">
     <p>
-	This plugin is the non-commercial version of the Huge IT Share Buttons. If you want to customize to the styles and colors of your website,than you need to buy a license.
-Purchasing a license will add possibility to customize the styles and settings of Huge IT Share Buttons. 
-
- </p>
+		<?php echo __('This plugin is the non-commercial version of the Huge IT Share Buttons. If you want to customize to the styles and colors of your website,than you need to buy a license.
+Purchasing a license will add possibility to customize the styles and settings of Huge IT Share Buttons. ', 'share-buttons'); ?>
+    </p>
 <br /><br />
-<a href="http://huge-it.com/share-buttons/" class="button-primary" target="_blank">Purchase a License</a>
+<a href="http://huge-it.com/share-buttons/" class="button-primary" target="_blank"><?php echo __('Purchase a License', 'share-buttons'); ?></a>
 <br /><br /><br />
-<p>After the purchasing the commercial version follow this steps:</p>
+<p><?php echo __('After the purchasing the commercial version follow this steps:', 'share-buttons'); ?></p>
 <ol>
-	<li>Deactivate Huge IT Share Buttons Plugin</li>
-	<li>Delete Huge IT Share Buttons Plugin</li>
-	<li>Install the downloaded commercial version of the plugin</li>
+	<li><?php echo __('Deactivate Huge IT Share Buttons Plugin', 'share-buttons'); ?></li>
+	<li><?php echo __('Delete Huge IT Share Buttons Plugin', 'share-buttons'); ?></li>
+	<li><?php echo __('Install the downloaded commercial version of the plugin', 'share-buttons'); ?></li>
 </ol>
 </div>
 <?php
@@ -483,7 +489,7 @@ function huge_it_share_buttons_post( $post )
 		<div id="huge_it_share_post_block" rel="<?php echo $_REQUEST['post']; ?>">
 			<div id="post_active">
 				<label>
-					<span>Show buttons on this post</span>
+					<span><?php echo __('Show buttons on this post', 'share-buttons'); ?></span>
 					<?php if(!(count($rowsparpost) > 0)){ ?>
 					<input type="checkbox" value="on" name="huge_it_share_button_active" checked="checked">
 					<?php } else { ?>
@@ -492,7 +498,7 @@ function huge_it_share_buttons_post( $post )
 				</label>
 			</div>
 			<div id="post_position_list_block">
-				<h3>Button Position</h3>
+				<h3><?php echo __('Button Position', 'share-buttons'); ?></h3>
 				<ul id="post_position_list">
 					<li class="<?php if($share_position == 'left-top'){echo 'active';} ?> left-top"><input type="radio" value="left-top" id="share_title_top-left" name="huge_it_share_button_position_post" <?php if($share_position == 'left-top'){echo 'checked="checked"';} ?>></li>
 					<li class="<?php if($share_position == 'center-top'){echo 'active';} ?> center-top"><input type="radio" value="center-top" id="share_title_top-center" name="huge_it_share_button_position_post" <?php if($share_position == 'center-top'){echo 'checked="checked"';} ?>></li>
@@ -504,7 +510,7 @@ function huge_it_share_buttons_post( $post )
 			</div>
 			
 			<div id="post_buttons_size_block">
-				<h3>Share Buttons size</h3>
+				<h3><?php echo __('Share Buttons size', 'share-buttons'); ?></h3>
 				<ul id="post_buttons_size_list">
 					<li class="<?php if($share_button_size == '40'){echo 'active';} ?> big"><input type="radio" value="40" name="huge_it_share_size" <?php if($share_button_size == '40'){echo 'checked="checked"';} ?>checked="checked" /></li>
 					<li class="<?php if($share_button_size == '30'){echo 'active';} ?> medium"><input type="radio" value="30" name="huge_it_share_size" <?php if($share_button_size == '30'){echo 'checked="checked"';} ?>></li>

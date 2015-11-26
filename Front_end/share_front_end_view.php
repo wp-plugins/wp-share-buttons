@@ -2,6 +2,8 @@
 function front_end_share_buttons($social_buttons, $param_values, $rowsposts, $shareifrows, $haveshortcode)
 {
 ob_start();
+	if(!(get_post_type( get_the_ID()) == 'page' || get_post_type( get_the_ID()) == 'post'))
+		return;
 	if(isset($rowsposts) && count($rowsposts) > 0){
 	$size=$rowsposts[0]->share_size;
 	}
